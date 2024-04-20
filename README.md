@@ -1,4 +1,4 @@
-# RISC-ZERO
+# RISC-ZERO TRUSTED SETUP
 
 ![image](https://i.hizliresim.com/atsj0mj.png)
 
