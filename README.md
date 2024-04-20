@@ -47,45 +47,77 @@ sudo xcodebuild -license
 
 ## 🟢 Sistemi güncelleyelim
 
-```sudo apt update```
+```
+sudo apt update
+```
 
-```sudo apt upgrade -y```
+```
+sudo apt upgrade -y
+```
 
-```sudo apt install curl```
+```
+sudo apt install curl
+```
 
 ## 🟢 Yeniden başlatalım
 
-```reboot```
+```
+reboot
+```
 
 
 ## 🟢 NVM İNDİRELİM
 
-```nvm install 16.20```
+```
+nvm install 16.20
+```
 
-```nvm use 16.20```
+```
+nvm use 16.20
+```
 
 ## 🟢 Temp oluşturalım
 
-```mkdir ~/p0tion-tmp```
+```
+mkdir ~/p0tion-tmp
+```
 
-```cd ~/p0tion-tmp```
+```
+cd ~/p0tion-tmp
+```
 
 ## 🟢 Yeni screen açalım
 
-```screen -S risc```
+```
+screen -S risc
+```
 
 
 ## 🟢 Phase2cli İNDİRELİM
 
-```npm i @p0tion/phase2cli```
+```
+npm i @p0tion/phase2cli
+```
 
 
 ## 🟢 Github ile kimlik doğrulaması yapalım
 
-```npx phase2cli auth```
+```
+npx phase2cli auth
+```
 
 * Bu kodu yazdıktan sonra github doğrulaması için yönelendirileceksiniz. Verdiği kodu oraya yapıştıralım. Daha sonrasında sorduğu soruya enter tıklayın random seçip tekrar enter tıklayın
 
 ## 🟢 Sıranız geldiğinde otomatik olarak kendisi yapmış olacak. Twitterda paylaşmayı unutmayın.
+
+## 🟢 işlemler bittikten sonra
+
+```
+npx phase2cli clean
+```
+
+```
+npx phase2cli logout
+```
 
 ![image](https://i.hizliresim.com/smgw5pz.png)
