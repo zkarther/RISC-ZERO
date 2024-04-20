@@ -12,7 +12,7 @@
 
 ## 🟢 Sistem özellikleri
 
-- Herhangi bir sunucu olur
+- Memory: 4GB+ RAM
 
 ## Kurulum
 * Node Version Manager (NVM)
