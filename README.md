@@ -110,6 +110,8 @@ npx phase2cli auth
 
 ## 🟢 Sıranız geldiğinde otomatik olarak kendisi yapmış olacak. Twitterda paylaşmayı unutmayın.
 
+![image](https://i.hizliresim.com/smgw5pz.png)
+
 ## 🟢 işlemler bittikten sonra
 
 ```
@@ -120,4 +122,3 @@ npx phase2cli clean
 npx phase2cli logout
 ```
 
-![image](https://i.hizliresim.com/smgw5pz.png)
