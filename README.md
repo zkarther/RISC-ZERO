@@ -17,7 +17,11 @@
 ## Kurulum
 * Node Version Manager (NVM)
 
-curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o install_nvm.sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+command -v nvm
+
+nvm install --lts
 
 ## Daha sonra terminale aşağıdaki komutu girerek NVM'yi kuracağız
 
@@ -42,7 +46,7 @@ sudo apt install curl
 reboot
 
 
-## 🟢 NVM İNDİRELİM [Burada hata alırsanız en alta bakın]
+## 🟢 NVM İNDİRELİM
 
 nvm install 16.20
 nvm use 16.20
@@ -71,14 +75,3 @@ npx phase2cli auth
 ## 🟢 Sıranız geldiğinde otomatik olarak kendisi yapmış olacak. Twitterda paylaşmayı unutmayın.
 
 ![image](https://i.hizliresim.com/smgw5pz.png)
-
-
-
-* NVM hatası alanlar sırasıyla aşağıdaki kodları yazın sonra nvm kısmından devam edin
-
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-
-command -v nvm
-
-nvm install --lts
-
