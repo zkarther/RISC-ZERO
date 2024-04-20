@@ -6,7 +6,7 @@
 
 ### Linkler
  * [Telegram](https://t.me/emir111)
- * [Twitter](https://twitter.com/emirrfeyza)
+ * [Twitter](https://twitter.com/emiirfeyza)
  * [Discord](https://discord.gg/zkarther)
 
 
