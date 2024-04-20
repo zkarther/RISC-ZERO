@@ -112,7 +112,7 @@ npx phase2cli auth
 
 ![image](https://i.hizliresim.com/smgw5pz.png)
 
-## 🟢 işlemler bittikten sonra
+## 🟢 Twitter paylaşımı yaptıktan sonraki işlemler
 
 ```
 npx phase2cli clean
