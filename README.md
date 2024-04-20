@@ -21,17 +21,25 @@
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
-```command -v nvm```
+```
+command -v nvm
+```
 
-```nvm install --lts```
+```
+nvm install --lts
+```
 
 ## Daha sonra terminale aşağıdaki komutu girerek NVM'yi kuracağız
 
-```sh install_nvm.sh```
+```
+sh install_nvm.sh
+```
 
 ## Lisans koşullarını kabul etmeniz gerekebilir
 
-```sudo xcodebuild -license```
+```
+sudo xcodebuild -license
+```
 
 
 ## KATKIDA BULUNACAĞIMIZ KISMA GEÇELİM
