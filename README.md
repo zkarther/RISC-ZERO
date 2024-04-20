@@ -17,19 +17,19 @@
 ## Kurulum
 * Node Version Manager (NVM)
 
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash```
 
-command -v nvm
+```command -v nvm```
 
-nvm install --lts
+```nvm install --lts```
 
 ## Daha sonra terminale aşağıdaki komutu girerek NVM'yi kuracağız
 
-sh install_nvm.sh
+```sh install_nvm.sh```
 
 ## Lisans koşullarını kabul etmeniz gerekebilir
 
-sudo xcodebuild -license
+```sudo xcodebuild -license```
 
 
 ## KATKIDA BULUNACAĞIMIZ KISMA GEÇELİM
@@ -37,38 +37,42 @@ sudo xcodebuild -license
 
 ## 🟢 Sistemi güncelleyelim
 
-sudo apt update
-sudo apt upgrade -y
-sudo apt install curl
+```sudo apt update```
+
+```sudo apt upgrade -y```
+
+```sudo apt install curl```
 
 ## 🟢 Yeniden başlatalım
 
-reboot
+```reboot```
 
 
 ## 🟢 NVM İNDİRELİM
 
-nvm install 16.20
-nvm use 16.20
+```nvm install 16.20```
+
+```nvm use 16.20```
 
 ## 🟢 Temp oluşturalım
 
-mkdir ~/p0tion-tmp
-cd ~/p0tion-tmp
+```mkdir ~/p0tion-tmp```
+
+```cd ~/p0tion-tmp```
 
 ## 🟢 Yeni screen açalım
 
-screen -S risc
+```screen -S risc```
 
 
 ## 🟢 Phase2cli İNDİRELİM
 
-npm i @p0tion/phase2cli
+```npm i @p0tion/phase2cli```
 
 
 ## 🟢 Github ile kimlik doğrulaması yapalım
 
-npx phase2cli auth
+```npx phase2cli auth```
 
 * Bu kodu yazdıktan sonra github doğrulaması için yönelendirileceksiniz. Verdiği kodu oraya yapıştıralım. Daha sonrasında sorduğu soruya enter tıklayın random seçip tekrar enter tıklayın
 
